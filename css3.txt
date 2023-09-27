@@ -1,0 +1,68 @@
+*{ } - Configurações Globais do Css
+
+background-color: - Fundo Cor
+background-image: - Fundo imagem
+background-attachment: fixed; - Deixa o fundo fixo
+
+background-image: radial-gradient(circle, white, blue); - Gradiente Radial
+background-image: linear-gradient(to top, white, blue); - Gradiente Linear
+to top - Cima
+to bottom - Baixo
+to left - Esquerda
+to right - Direita
+
+
+
+
+font-family: 'Times New Roman', Times, serif; -> (Tipo da fonte)
+(1 Times New Roman / 2 Times / 3 Serif)
+
+font-size: 1px; -> (Tamanho da fonte) -> Normalmente 16px = 1em
+Medidas Absolutas:
+- cm    / Centimetros
+- mn    / Milimetros
+- in    / Polegadas
+- px    / Pixels
+- pt    / Ponto
+- pc    / Paica
+Medidas Relativas:
+- em    / Relativa a atual m
+- ex    / Relativa a altura x
+- rem   / Relativa a fonte m da página
+- vw    / Largura da viewport
+- vh    / Altura da viewport
+- %     / Porcentagem
+
+font-weigth: -> (Peso da fonte)
+- lighter
+- normal
+- bold
+- bolder
+- 100 até 900
+
+font-style: -> (Estilo da fonte)
+- normal
+- italic
+
+text-decoration: -> (Decoração)
+- underline (sublinhado)
+
+-> Para Simplificar usamos:
+font: (font-style) (font-weight) (font-size) (font-family)
+font: italic bold 3em Arial 
+
+-> Download de Fontes
+
+    @font-face {
+            font-family: 'Croissant';
+            src: url(Fonts/Croissant.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+Tipos de fonte:
+- opentype (otf)
+- truetype (ttf)
+- embedded-opentype
+- truetype-aat (Apple Advanced Typography)
+- svg
