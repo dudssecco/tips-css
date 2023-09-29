@@ -66,3 +66,40 @@ Tipos de fonte:
 - embedded-opentype
 - truetype-aat (Apple Advanced Typography)
 - svg
+
+-> text-aling: (Alinhamento de texto)
+-> text-indent: (Indentação de texto / parágrafo)
+
+# -> id
+. -> classe
+: -> pseudo classe
+:: -> pseudo elemento
+> -> children (filho)
+
+- height: -> Altura
+- width: -> Altura
+
+
+-> Pseudo Classes: 
+:hover -> Passar mouse por cima
+:active -> Clicar
+:visited -> já foi clicado
+
+-> Pseudo Elementos:
+::after -> Depois
+::before -> Antes
+
+box-level -> Pula linha
+inline-level -> Na mesma linha
+
+border -> Borda da caixa
+padding -> Distancia entre o que está dentro da caixa e a borda
+margin -> Distancia entre a borda e fora da caixa
+outline -> Linha dentro da margem fora da borda
+
+-> border: (border-width border-style border-color)
+-> padding: (padding-top padding-right padding-botton padding-left)
+-> padding: (padding-all)
+-> padding: (padding-top/padding-bottom paddint-right/padding-left)
+-> margin: (margin-top margin-right margin-botton margin-left)
+-> outline: (outline-width outline-style outline-color)
