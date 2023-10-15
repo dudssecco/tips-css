@@ -1,3 +1,5 @@
+/*
+
 *{ } - Configurações Globais do Css
 
 background-color: - Fundo Cor
@@ -6,11 +8,16 @@ background-attachment: fixed; - Deixa o fundo fixo
 
 background-image: radial-gradient(circle, white, blue); - Gradiente Radial
 background-image: linear-gradient(to top, white, blue); - Gradiente Linear
+background-image: url('arquivo.png')
+background-size: (tamanho do fundo) - (cover = cobrir)
+background-repeat: (repetir imagem de fundo)
+background-position: (center center), (left top), (left center)
+background-attachment: (fixed / scroll) - Fundo fixo ou scroll
+
 to top - Cima
 to bottom - Baixo
 to left - Esquerda
 to right - Direita
-
 
 
 
@@ -46,6 +53,7 @@ font-style: -> (Estilo da fonte)
 
 text-decoration: -> (Decoração)
 - underline (sublinhado)
+- none (nada)
 
 -> Para Simplificar usamos:
 font: (font-style) (font-weight) (font-size) (font-family)
@@ -66,6 +74,7 @@ Tipos de fonte:
 - embedded-opentype
 - truetype-aat (Apple Advanced Typography)
 - svg
+
 
 -> text-aling: (Alinhamento de texto)
 -> text-indent: (Indentação de texto / parágrafo)
@@ -98,8 +107,19 @@ margin -> Distancia entre a borda e fora da caixa
 outline -> Linha dentro da margem fora da borda
 
 -> border: (border-width border-style border-color)
+border-collapse: collapse; - Deixar as bordas coladas
+
 -> padding: (padding-top padding-right padding-botton padding-left)
 -> padding: (padding-all)
 -> padding: (padding-top/padding-bottom paddint-right/padding-left)
 -> margin: (margin-top margin-right margin-botton margin-left)
 -> outline: (outline-width outline-style outline-color)
+
+- box-shadow: (horizontal vertical blur espalhamento cor)
+
+
+
+
+
+
+*/
